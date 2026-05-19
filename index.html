@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEADYX — Enterprise AI Lead Generation Engine</title>
+  <meta name="description" content="Generate high-quality business leads with AI. Enter a city, business type, and let our engine find verified contacts — fully automated." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient Background -->
+  <div class="ambient-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- Nav -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="brand" id="logo">
+        <svg class="brand-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+        <span>LEADYX</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Platform</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#terminal" class="nav-cta" id="nav-cta">
+        Launch Engine
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ================= VIEW: HOME ================= -->
+  <main id="view-home" class="view active">
+    <!-- Hero -->
+    <header class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>System Online — Enterprise Edition</span>
+        </div>
+
+        <h1 class="hero-title">
+          Capture Leads at<br/><span class="gradient-text">Machine Speed.</span>
+        </h1>
+
+        <p class="hero-sub">
+          Deploy our proprietary AI engine to any city and industry. It crawls, enriches, scores, and delivers verified leads directly to your CRM — zero manual research required.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#terminal" class="btn-primary">
+            <span>Deploy Engine</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#pipeline" class="btn-ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            <span>See Architecture</span>
+          </a>
+        </div>
+
+        <div class="stats-bar">
+          <div class="stat-block">
+            <div class="stat-num" data-count="15000">0</div>
+            <div class="stat-lbl">Leads Delivered</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-block">
+            <div class="stat-num" data-count="850">0</div>
+            <div class="stat-lbl">Global Markets</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-block">
+            <div class="stat-num" data-count="99">0</div>
+            <div class="stat-lbl">% Data Integrity</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scrolling ticker -->
+      <div class="hero-ticker">
+        <div class="ticker-track">
+          <span>Proprietary Neural Net</span>
+          <span>Distributed Crawling</span>
+          <span>Behavioral Scoring</span>
+          <span>Deep Data Enrichment</span>
+          <span>Predictive Analytics</span>
+          <span>Automated Outreach</span>
+          <span>Enterprise CRM Sync</span>
+          <span>Real-time Alerts</span>
+          <span>Proprietary Neural Net</span>
+          <span>Distributed Crawling</span>
+          <span>Behavioral Scoring</span>
+          <span>Deep Data Enrichment</span>
+          <span>Predictive Analytics</span>
+          <span>Automated Outreach</span>
+          <span>Enterprise CRM Sync</span>
+          <span>Real-time Alerts</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Capabilities -->
+    <section class="capabilities" id="capabilities">
+      <div class="container">
+        <div class="sec-header">
+          <span class="sec-eyebrow">Platform Capabilities</span>
+          <h2 class="sec-title">The Complete Pipeline</h2>
+          <p class="sec-desc">A unified architecture that transforms a simple prompt into a stream of qualified, scored, and deduplicated pipeline opportunities.</p>
+        </div>
+
+        <div class="cap-grid">
+          <!-- Card 1 — Featured -->
+          <div class="cap-card cap-card--featured" id="cap-discover">
+            <div class="cap-card-header">
+              <span class="cap-module">Core Module</span>
+              <span class="cap-badge cap-badge--active">Online</span>
+            </div>
+            <div class="cap-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+            </div>
+            <h3>Deep Contextual Discovery</h3>
+            <p>Our proprietary AI models generate hyper-targeted search vectors. Distributed crawling nodes extract thousands of results in seconds — bypassing aggregators and eliminating noise automatically.</p>
+            <div class="cap-code-block">
+              <div class="cap-code-bar">
+                <span class="code-dot code-dot--red"></span>
+                <span class="code-dot code-dot--yellow"></span>
+                <span class="code-dot code-dot--green"></span>
+                <span class="code-filename">ai_vector_engine.py</span>
+              </div>
+              <div class="cap-code-body">
+                <div class="code-line"><span class="code-prompt">$</span> <span class="code-fn">execute</span> <span class="code-str">--target "Enterprise Software" --loc "London"</span></div>
+                <div class="code-line"><span class="code-prompt">></span> <span class="code-fn">Generating search vectors... [12 active nodes]</span></div>
+                <div class="code-line"><span class="code-prompt">></span> <span class="code-fn">Bypassing directory sites...</span></div>
+                <div class="code-line code-line--dim"><span class="code-comment"># Extracting decision-maker footprints...</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="cap-card" id="cap-extract">
+            <div class="cap-card-header">
+              <span class="cap-module">Enrichment</span>
+              <span class="cap-badge cap-badge--active">Active</span>
+            </div>
+            <div class="cap-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            </div>
+            <h3>Contact Extraction</h3>
+            <p>Advanced pattern recognition discovers hidden emails, direct dials, and professional profiles — deciphering even intentionally obfuscated contact formats.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="cap-card" id="cap-score">
+            <div class="cap-card-header">
+              <span class="cap-module">Analytics</span>
+              <span class="cap-badge cap-badge--active">Active</span>
+            </div>
+            <div class="cap-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+            </div>
+            <h3>Predictive Lead Scoring</h3>
+            <p>Every entity is evaluated and scored 0–100 based on firmographic fit. Low-quality noise is aggressively filtered before it ever touches your systems.</p>
+            <div class="score-pills">
+              <span class="pill pill--hot">Tier 1 · 85+</span>
+              <span class="pill pill--warm">Tier 2 · 52+</span>
+              <span class="pill pill--cold">Discarded</span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="cap-card" id="cap-dedup">
+            <div class="cap-card-header">
+              <span class="cap-module">Integration</span>
+              <span class="cap-badge cap-badge--active">Active</span>
+            </div>
+            <div class="cap-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
+            <h3>CRM Synchronization</h3>
+            <p>Seamlessly pushes clean, structured data into your enterprise systems. Real-time deduplication ensures pristine database health.</p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="cap-card" id="cap-outreach">
+            <div class="cap-card-header">
+              <span class="cap-module">Activation</span>
+              <span class="cap-badge cap-badge--active">Active</span>
+            </div>
+            <div class="cap-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg>
+            </div>
+            <h3>Omnichannel Sequences</h3>
+            <p>Trigger highly-personalized email sequences, SMS alerts, and internal team notifications the moment a high-value target is identified.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pipeline -->
+    <section class="pipeline" id="pipeline">
+      <div class="container">
+        <div class="sec-header">
+          <span class="sec-eyebrow">Execution Architecture</span>
+          <h2 class="sec-title">From initialization to outreach</h2>
+          <p class="sec-desc">A deterministic, six-phase workflow engineered for precision. Zero human intervention required.</p>
+        </div>
+
+        <div class="pipe-timeline">
+          <div class="pipe-line-track" aria-hidden="true"></div>
+
+          <div class="pipe-step">
+            <div class="pipe-marker"><span>01</span></div>
+            <div class="pipe-content">
+              <div class="pipe-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+              </div>
+              <h4>API Initialization</h4>
+              <p>Secure payload received. Session authorized and allocated to processing clusters.</p>
+            </div>
+          </div>
+
+          <div class="pipe-step">
+            <div class="pipe-marker"><span>02</span></div>
+            <div class="pipe-content">
+              <div class="pipe-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+              </div>
+              <h4>Vector Generation</h4>
+              <p>LLM formulates optimized semantic queries tailored to specific geographic markets.</p>
+            </div>
+          </div>
+
+          <div class="pipe-step">
+            <div class="pipe-marker"><span>03</span></div>
+            <div class="pipe-content">
+              <div class="pipe-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+              </div>
+              <h4>Distributed Extraction</h4>
+              <p>Fleet of headless nodes traverses the web, gathering raw unstructured domain data.</p>
+            </div>
+          </div>
+
+          <div class="pipe-step">
+            <div class="pipe-marker"><span>04</span></div>
+            <div class="pipe-content">
+              <div class="pipe-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+              </div>
+              <h4>Semantic Enrichment</h4>
+              <p>AI layers clean the raw data, structuring contact details into standard formats.</p>
+            </div>
+          </div>
+
+          <div class="pipe-step">
+            <div class="pipe-marker"><span>05</span></div>
+            <div class="pipe-content">
+              <div class="pipe-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"></path><path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"></path><path d="M7 3v4a1 1 0 0 0 1 1h7"></path></svg>
+              </div>
+              <h4>Verification & Routing</h4>
+              <p>Entities scored. High-confidence leads pushed to secure storage and CRM gateways.</p>
+            </div>
+          </div>
+
+          <div class="pipe-step">
+            <div class="pipe-marker"><span>06</span></div>
+            <div class="pipe-content">
+              <div class="pipe-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <h4>Automated Activation</h4>
+              <p>Communications modules fire, initiating first-touch personalized outreach.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Terminal / Generate -->
+    <section class="terminal-section" id="terminal">
+      <div class="container">
+        <div class="sec-header">
+          <span class="sec-eyebrow">Interactive Demo</span>
+          <h2 class="sec-title">Command the Engine</h2>
+          <p class="sec-desc">Configure your parameters below and initiate a sandbox execution sequence.</p>
+        </div>
+
+        <div class="term-layout">
+          <!-- Left: system info -->
+          <div class="sys-info">
+            <div class="sys-card">
+              <h5 class="sys-card-title">Network Status</h5>
+              <div class="sys-row"><span class="sys-k">Status</span><span class="sys-v sys-v--online">● Operational</span></div>
+              <div class="sys-row"><span class="sys-k">Engine Version</span><span class="sys-v">v4.2-enterprise</span></div>
+              <div class="sys-row"><span class="sys-k">Compute Core</span><span class="sys-v">Proprietary LLM Cluster</span></div>
+              <div class="sys-row"><span class="sys-k">Traversal</span><span class="sys-v">Distributed Mesh Nodes</span></div>
+              <div class="sys-row"><span class="sys-k">Extraction</span><span class="sys-v">Headless Virtual Fleet</span></div>
+              <div class="sys-row"><span class="sys-k">Data Store</span><span class="sys-v">Encrypted Cloud Lake</span></div>
+              <div class="sys-row"><span class="sys-k">Redundancy</span><span class="sys-v">Multi-Region Backup</span></div>
+              <div class="sys-row"><span class="sys-k">Communications</span><span class="sys-v">Enterprise SMTP / SMS</span></div>
+              <div class="sys-row"><span class="sys-k">Integrations</span><span class="sys-v">RESTful Webhook Gateway</span></div>
+            </div>
+
+            <div class="sys-card">
+              <h5 class="sys-card-title">Scoring Calibration</h5>
+              <div class="score-bar-row">
+                <div class="sb-meta"><span class="sb-label">Tier 1 Target</span><span class="sb-range">High Intent</span></div>
+                <div class="sb-track"><div class="sb-fill sb-fill--hot" style="width:85%"></div></div>
+              </div>
+              <div class="score-bar-row">
+                <div class="sb-meta"><span class="sb-label">Tier 2 Target</span><span class="sb-range">Qualifying</span></div>
+                <div class="sb-track"><div class="sb-fill sb-fill--warm" style="width:55%"></div></div>
+              </div>
+              <div class="score-bar-row">
+                <div class="sb-meta"><span class="sb-label">Discarded</span><span class="sb-range">Low Intent</span></div>
+                <div class="sb-track"><div class="sb-fill sb-fill--cold" style="width:20%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: terminal form -->
+          <div class="term-window">
+            <div class="term-bar">
+              <div class="term-dots">
+                <span class="td td--red"></span>
+                <span class="td td--yellow"></span>
+                <span class="td td--green"></span>
+              </div>
+              <span class="term-bar-title">operator@leadyx-core:~</span>
+            </div>
+
+            <form id="lead-form" class="term-body" novalidate>
+              <div class="term-line">
+                <span class="t-prompt">leadyx@core:~$</span>
+                <span class="t-cmd">./initialize --module search</span>
+              </div>
+
+              <div class="plan-row">
+                <label class="plan-opt" id="opt-free">
+                  <input type="radio" name="plan" value="free" checked />
+                  <div class="plan-box">
+                    <span class="plan-name">Sandbox</span>
+                    <span class="plan-det">Test Batch</span>
+                  </div>
+                </label>
+                <label class="plan-opt" id="opt-basic">
+                  <input type="radio" name="plan" value="basic" />
+                  <div class="plan-box">
+                    <span class="plan-name">Standard</span>
+                    <span class="plan-det">Full Region</span>
+                  </div>
+                </label>
+                <label class="plan-opt" id="opt-pro">
+                  <input type="radio" name="plan" value="pro" />
+                  <div class="plan-box">
+                    <span class="plan-name">Deep</span>
+                    <span class="plan-det">Global Mesh</span>
+                  </div>
+                </label>
+              </div>
+
+              <div class="term-line">
+                <span class="t-prompt">leadyx@core:~$</span>
+                <span class="t-cmd">set --target-locale</span>
+              </div>
+              <div class="term-input-wrap">
+                <span class="input-caret">›</span>
+                <input type="text" id="f-city" name="city" placeholder="e.g. New York, London, Tokyo" required autocomplete="off" />
+              </div>
+
+              <div class="term-line">
+                <span class="t-prompt">leadyx@core:~$</span>
+                <span class="t-cmd">set --target-sector</span>
+              </div>
+              <div class="term-input-wrap">
+                <span class="input-caret">›</span>
+                <input type="text" id="f-biz" name="business_type" placeholder="e.g. Fintech, Dental Clinics, SaaS" required autocomplete="off" />
+              </div>
+
+              <div class="term-line">
+                <span class="t-prompt">leadyx@core:~$</span>
+                <span class="t-cmd">auth --session-key</span>
+                <span class="t-comment-inline"># identifier: 4-64 alphanumeric chars</span>
+              </div>
+              <div class="term-input-wrap">
+                <span class="input-caret">›</span>
+                <input type="text" id="f-cid" name="client_id" placeholder="corp_auth_token" required autocomplete="off" pattern="^[a-zA-Z0-9_]{4,64}$" />
+              </div>
+
+              <button type="submit" class="exec-btn" id="submit-btn">
+                <span class="eb-default">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                  Execute Sequence
+                </span>
+                <span class="eb-loading" hidden>
+                  <span class="spinner"></span> Establishing Secure Connection...
+                </span>
+              </button>
+            </form>
+
+            <!-- Response output -->
+            <div id="response" class="term-response" hidden>
+              <div class="tr-head">
+                <span class="tr-icon" id="res-icon"></span>
+                <div>
+                  <strong id="res-title"></strong>
+                  <p id="res-msg"></p>
+                </div>
+              </div>
+              <pre id="res-details"></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= VIEW: ABOUT ================= -->
+  <main id="view-about" class="view">
+    <div class="about-header">
+      <h1 class="about-title">Redefining B2B <span class="gradient-text">Growth</span>.</h1>
+      <p class="about-subtitle">Founded by a collective of AI engineers and growth architects, LEADYX was engineered to solve the most pervasive bottleneck in modern business: pipeline friction.</p>
+    </div>
+
+    <div class="about-content">
+      <div class="about-grid">
+        <div class="mission-card">
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg>
+            Our Mission
+          </h3>
+          <p>We believe sales teams should spend 100% of their time engaged in human connection, not administrative data mining. We build the silent, autonomous systems that make this reality possible.</p>
+        </div>
+        <div class="about-text">
+          <h3>The Intelligence Gap</h3>
+          <p>Traditional lead generation relies on stale databases and manual scraping. The data is outdated the moment you export it.</p>
+          <p>LEADYX shifts the paradigm from <strong>static retrieval</strong> to <strong>dynamic synthesis</strong>. Our engine traverses the live web, parsing unstructured data into highly-qualified, real-time pipeline opportunities that simply don't exist in commercial databases.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ================= VIEW: PRICING ================= -->
+  <main id="view-pricing" class="view">
+    <div class="pricing-header">
+      <h1 class="pricing-title">Simple, <span class="gradient-text">Transparent</span> Scales.</h1>
+      <p class="pricing-subtitle">Architected for businesses of all sizes. From rapid experimentation to global enterprise deployments.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Starter -->
+      <div class="pricing-card">
+        <h3 class="pricing-name">Growth</h3>
+        <p class="pricing-desc">Perfect for agile teams launching new market campaigns.</p>
+        <div class="pricing-price">$499<span>/mo</span></div>
+        <ul class="pricing-features">
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Up to 10,000 Verified Leads
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Standard AI Enrichment
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            1 Automated Email Workflow
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Standard Integrations
+          </li>
+        </ul>
+        <a href="#contact" class="pricing-btn pricing-btn-outline">Start Trial</a>
+      </div>
+
+      <!-- Professional -->
+      <div class="pricing-card popular">
+        <h3 class="pricing-name">Professional</h3>
+        <p class="pricing-desc">For scaling organizations demanding high-velocity pipeline.</p>
+        <div class="pricing-price">$999<span>/mo</span></div>
+        <ul class="pricing-features">
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Up to 50,000 Verified Leads
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Deep Semantic Enrichment
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Omnichannel Outreach (Email + SMS)
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Advanced CRM Sync
+          </li>
+        </ul>
+        <a href="#contact" class="pricing-btn pricing-btn-primary">Deploy Now</a>
+      </div>
+
+      <!-- Enterprise -->
+      <div class="pricing-card">
+        <h3 class="pricing-name">Enterprise</h3>
+        <p class="pricing-desc">Custom solutions with dedicated infrastructure.</p>
+        <div class="pricing-price">Custom</div>
+        <ul class="pricing-features">
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Unlimited Volume Capacity
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Custom AI Models Trained on Your Data
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Dedicated Implementation Engineer
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            SLA Guarantees & Priority Support
+          </li>
+        </ul>
+        <a href="#contact" class="pricing-btn pricing-btn-outline">Contact Sales</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ================= VIEW: CONTACT ================= -->
+  <main id="view-contact" class="view">
+    <div class="contact-header">
+      <h1 class="contact-title">Initiate <span class="gradient-text">Contact</span>.</h1>
+      <p class="contact-subtitle">Ready to integrate LEADYX into your revenue operations? Our deployment specialists are standing by.</p>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-info">
+        <div class="contact-block">
+          <h4>Direct Inquiries</h4>
+          <p><a href="mailto:deploy@leadyx.com">deploy@leadyx.com</a></p>
+          <p><a href="tel:+18005550199">+1 (800) 555-0199</a></p>
+        </div>
+        <div class="contact-block">
+          <h4>Global Headquarters</h4>
+          <p>100 Innovation Drive</p>
+          <p>San Francisco, CA 94103</p>
+          <p>United States</p>
+        </div>
+        <div class="contact-block">
+          <h4>Support Operations</h4>
+          <p><a href="#">systems-status.leadyx.com</a></p>
+          <p>24/7 Monitored Slack Channel for Enterprise Partners.</p>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <label for="c-name">Full Name</label>
+          <input type="text" id="c-name" class="contact-input" placeholder="Jane Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="c-email">Work Email</label>
+          <input type="email" id="c-email" class="contact-input" placeholder="jane@company.com" required>
+        </div>
+        <div class="form-group">
+          <label for="c-company">Company</label>
+          <input type="text" id="c-company" class="contact-input" placeholder="Acme Corp" required>
+        </div>
+        <div class="form-group">
+          <label for="c-msg">Implementation Requirements</label>
+          <textarea id="c-msg" class="contact-input" placeholder="Briefly describe your current lead generation tech stack and target volume..." required></textarea>
+        </div>
+        <button type="submit" class="contact-submit">Submit Inquiry</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <svg class="brand-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          <span>LEADYX</span>
+        </div>
+        <p>Enterprise AI lead generation architecture.<br/>Global scale. Absolute precision.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h5>Platform</h5>
+          <a href="#home">Architecture</a>
+          <a href="#capabilities">Capabilities</a>
+          <a href="#terminal">Interactive Demo</a>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <a href="#about">About Us</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h5>Legal</h5>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Security</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 LEADYX SYSTEMS LLC.</span>
+        <span class="footer-status">Network Status: <span class="sys-v--online">● Operational</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
